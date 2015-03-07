@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Set-Cookie: BDSVRTM=0; path=/
+Server: lanxin/1.0
+Connection: Keep-Alive
+Content-Type: text/html
+Date: Mon, 26 Jan 2015 08:52:12 GMT
+Content-Length: 64
+
+<html><title>lx_http </title><body>simple response</body></html>

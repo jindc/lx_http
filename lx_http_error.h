@@ -1,0 +1,31 @@
+#ifndef LX_HTTP_ERROR_H
+#define LX_HTTP_ERROR_H
+
+typedef enum h_err_code_t h_err_code_t;
+enum h_err_code_t
+{
+    HEC_OK = 0,
+    HEC_AGAIN = -10000,
+    HEC_NEED_MORE ,
+
+    HEC_CTX_HMEM_MTOD,
+    HEC_MALLOC_ERR,
+    HEC_EXTEND_ERR,
+    HEC_APPNODE_ERR,
+    HEC_PARSE_URI_ERR,
+   
+   HEC_INVALID_METHOD,
+    HEC_INVALID_URI,
+    HEC_INVALID_PROT,
+
+    HEC_INVALID_CODE,
+    HEC_INVALID_CODESTR,
+
+    HEC_INVALID_HEADER_KEY,
+    HEC_INVALIE_HEADER_VALUE,
+
+    HEC_MEMORY_ERR
+};
+
+
+#endif
